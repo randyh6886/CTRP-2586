@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-08T18:27:01.451Z",
+        "line": 2,
+        "name": "Starting PA",
+        "description": "",
+        "id": "browse-to-url;starting-pa",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8532288000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Chrome and launch application",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.open_chrome_and_launch_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4857480000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter Username and password",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.i_enterusername_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4700455000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the website opens",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.the_website_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97140674000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Protocol Abstraction",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.i_click_on_protocol_abstraction()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Browse to URL",
+    "description": "",
+    "id": "browse-to-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/browseToURL.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-08T18:28:56.786Z",
+        "line": 2,
+        "name": "Search for CTEP ID WQ456",
+        "description": "",
+        "id": "search-for-lead-organization;search-for-ctep-id-wq456",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 608393000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I click on organizations menu option",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.i_click_on_organizations_menu_option()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122235000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I type WQ456 in CTEP ID",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.i_type_wq456_in_ctep_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 491141000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select Research organization into Organization Type",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.i_select_research_organization_into_organization_type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 821812000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Search",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.i_click_on_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28224000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I assert Novartis Pharmaceuticals matches Novartis Pharmaceuticals",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.i_assert_novartis_pharmaceuticals_matches_novartis_pharmaceuticals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1285431000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click logout",
+            "match": {
+              "location": "com.example.Steps.CTEP_ID_WQ456.i_click_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search for Lead Organization",
+    "description": "",
+    "id": "search-for-lead-organization",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/searchLeadOrg.feature",
+    "tags": []
+  }
+]
